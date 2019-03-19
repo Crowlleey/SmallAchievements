@@ -17,6 +17,8 @@
 		5E08D94D2240067F00AE333E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E08D94F2240067F00AE333E /* Localizable.strings */; };
 		5E08D9552240078D00AE333E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E08D9542240078D00AE333E /* NetworkingManager.swift */; };
 		5E71D8B522403EC700D580CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E71D8B422403EC700D580CE /* LoginViewController.swift */; };
+		5E88BEA52241973100E53E78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E88BEA42241973100E53E78 /* GoogleService-Info.plist */; };
+		5E88BEA7224198A000E53E78 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E88BEA6224198A000E53E78 /* AuthManager.swift */; };
 		95862F78F809989F430A39BF /* Pods_SmallAchievements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E73C0CFE7A333BE9DDC041 /* Pods_SmallAchievements.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		5E08D9532240073800AE333E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5E08D9542240078D00AE333E /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		5E71D8B422403EC700D580CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5E88BEA42241973100E53E78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E88BEA6224198A000E53E78 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		D6A0BF50BAECFEE7BDFB3168 /* Pods-SmallAchievements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmallAchievements.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmallAchievements/Pods-SmallAchievements.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,7 @@
 				5E08D935224003E300AE333E /* Assets.xcassets */,
 				5E08D92E224003DE00AE333E /* AppDelegate.swift */,
 				5E08D93A224003E300AE333E /* Info.plist */,
+				5E88BEA42241973100E53E78 /* GoogleService-Info.plist */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5E08D9542240078D00AE333E /* NetworkingManager.swift */,
+				5E88BEA6224198A000E53E78 /* AuthManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 			files = (
 				5E08D939224003E300AE333E /* LaunchScreen.storyboard in Resources */,
 				5E08D94D2240067F00AE333E /* Localizable.strings in Resources */,
+				5E88BEA52241973100E53E78 /* GoogleService-Info.plist in Resources */,
 				5E08D936224003E300AE333E /* Assets.xcassets in Resources */,
 				5E08D934224003DE00AE333E /* Main.storyboard in Resources */,
 			);
@@ -334,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E71D8B522403EC700D580CE /* LoginViewController.swift in Sources */,
+				5E88BEA7224198A000E53E78 /* AuthManager.swift in Sources */,
 				5E08D947224005A800AE333E /* Achievement.swift in Sources */,
 				5E08D931224003DE00AE333E /* ViewController.swift in Sources */,
 				5E08D92F224003DE00AE333E /* AppDelegate.swift in Sources */,
