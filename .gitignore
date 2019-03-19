@@ -195,4 +195,6 @@ playground.xcworkspace
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 
+R.generated.swift
+
 # End of https://www.gitignore.io/api/xcode,macos,swift,carthage,fastlane,firebase,cocoapods,objective-c
