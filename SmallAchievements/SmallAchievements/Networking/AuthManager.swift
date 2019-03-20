@@ -26,4 +26,8 @@ final class AuthManager {
     static func logout() {
         
     }
+    
+    static func isLogged() -> Bool {
+        return Auth.auth().currentUser != nil ? true : false
+    }
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import Rswift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,8 +18,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        
+        if !AuthManager.isLogged() { openLogin() }
+        
         return true
     }
     
+    func openLogin() {
+//        let i = R.story
+        
+        //        let storyboard = R.s// UIStoryboard(name: "MyStoryboardName", bundle: nil)
+//        let controller = storyboard.instantiateViewController(withIdentifier: "someViewController")
+//        self.present(controller, animated: true, completion: nil)
+    }
 }
 
