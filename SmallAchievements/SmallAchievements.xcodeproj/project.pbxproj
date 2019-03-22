@@ -17,6 +17,8 @@
 		5E08D94D2240067F00AE333E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E08D94F2240067F00AE333E /* Localizable.strings */; };
 		5E08D9552240078D00AE333E /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E08D9542240078D00AE333E /* NetworkingManager.swift */; };
 		5E6641112242E293002E0866 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6641102242E293002E0866 /* R.generated.swift */; };
+		5E6641132242E732002E0866 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6641122242E732002E0866 /* Router.swift */; };
+		5E6641172243FCE7002E0866 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6641162243FCE7002E0866 /* TextField.swift */; };
 		5E71D8B522403EC700D580CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E71D8B422403EC700D580CE /* LoginViewController.swift */; };
 		5E88BEA52241973100E53E78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E88BEA42241973100E53E78 /* GoogleService-Info.plist */; };
 		5E88BEA7224198A000E53E78 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E88BEA6224198A000E53E78 /* AuthManager.swift */; };
@@ -43,6 +45,8 @@
 		5E08D9532240073800AE333E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5E08D9542240078D00AE333E /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		5E6641102242E293002E0866 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		5E6641122242E732002E0866 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5E6641162243FCE7002E0866 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		5E71D8B422403EC700D580CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E88BEA42241973100E53E78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E88BEA6224198A000E53E78 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
@@ -94,7 +98,7 @@
 				5E08D944224004BC00AE333E /* Com */,
 				5E08D94A2240063B00AE333E /* Networking */,
 				5E08D945224004C300AE333E /* Model */,
-				5E08D943224004B200AE333E /* Extensions */,
+				5E6641142243FC95002E0866 /* Mod */,
 				5E08D9402240043900AE333E /* App */,
 				5E08D9422240046200AE333E /* Misc */,
 			);
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				5E08D94F2240067F00AE333E /* Localizable.strings */,
+				5E6641122242E732002E0866 /* Router.swift */,
 			);
 			path = Com;
 			sourceTree = "<group>";
@@ -163,6 +168,23 @@
 				5E88BEA6224198A000E53E78 /* AuthManager.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		5E6641142243FC95002E0866 /* Mod */ = {
+			isa = PBXGroup;
+			children = (
+				5E6641152243FCAA002E0866 /* Custom */,
+				5E08D943224004B200AE333E /* Extensions */,
+			);
+			path = Mod;
+			sourceTree = "<group>";
+		};
+		5E6641152243FCAA002E0866 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				5E6641162243FCE7002E0866 /* TextField.swift */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		5E71D8B622403F2300D580CE /* Auth */ = {
@@ -350,7 +372,9 @@
 				5E71D8B522403EC700D580CE /* LoginViewController.swift in Sources */,
 				5E88BEA7224198A000E53E78 /* AuthManager.swift in Sources */,
 				5E08D947224005A800AE333E /* Achievement.swift in Sources */,
+				5E6641172243FCE7002E0866 /* TextField.swift in Sources */,
 				5E6641112242E293002E0866 /* R.generated.swift in Sources */,
+				5E6641132242E732002E0866 /* Router.swift in Sources */,
 				5E08D931224003DE00AE333E /* ViewController.swift in Sources */,
 				5E08D92F224003DE00AE333E /* AppDelegate.swift in Sources */,
 				5E08D9552240078D00AE333E /* NetworkingManager.swift in Sources */,
