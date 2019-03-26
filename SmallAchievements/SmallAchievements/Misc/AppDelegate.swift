@@ -25,19 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func openLogin() {
-//        let storyboard = R.storyboard.auth()
-//        let contraller = storyboard.instantiateViewController(withIdentifier: R.)
-//
-        
-//      Router.show(viewController: R.storyboard.main.instantiateInitialViewController(), isAnimated: false)
-        Router.show(viewController: R.storyboard.auth.instantiateInitialViewController(), isAnimated: true)
-
-        
-//        let i = R.story
-        
-        //        let storyboard = R.s// UIStoryboard(name: "MyStoryboardName", bundle: nil)
-//        let controller = storyboard.instantiateViewController(withIdentifier: "someViewController")
-//        self.present(controller, animated: true, completion: nil)
+        Router.show(viewController: R.storyboard.auth().instantiateInitialViewController(), isAnimated: true)
     }
 }
 

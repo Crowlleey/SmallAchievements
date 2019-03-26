@@ -13,7 +13,6 @@ public class BigTextField: UITextField{
     lazy var backgroundView: UIView = {
         let view = UIView()
         view.frame = self.frame
-        
         view.backgroundColor = .red
         return view
     }()

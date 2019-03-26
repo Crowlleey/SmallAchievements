@@ -7,3 +7,37 @@
 */
 
 Error="ERROR";
+
+
+//Register
+PlaceholderUsername="Choose your username";
+PlaceholderEmail="Type your E-mail";
+PlaceholderPassowrd="Type your Password";
+PlaceholderRepeatPassword="Repeat your Password";
+//Done
+RegisterSucess="Registered user successfully";
+
+Cancel="Cancel";
+Create="Create";
+Save="Save";
+
+Success="Success";
+Error="Error";
+Ok="Ok";
+
+
+//RegisterErrors
+ErrorName="The name must have at least one letter";
+ErrorEmail="Invalid email, complete the field with a valid email.";
+ErrorPassword="Password must be at least 6 characters";
+ErrorPasswordSame="Passwords do not match";
+
+
+//Networking Errors
+ERRORN ="ERRO N %d";
+ERRORNoConnection="You are not connected to the internet, please check and try again...";
+ERRORServer="ERRO %d Something was wrong with the server, please try again later...";
+ERRORWrongEmailOrPassowrd="ERRO %d Wrong email or password";
+ERROREmailAlreadyBeingUsed="ERRO %d This email is already being used";
+
+
