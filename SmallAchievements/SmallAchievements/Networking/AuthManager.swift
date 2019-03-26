@@ -8,15 +8,32 @@
 
 import Foundation
 import Firebase
+import FirebaseAuth
 
 final class AuthManager {
     
-    static func createAcc() {
-        
+    static func createUser(with email: String, password: String, completion: @escaping(Response<User>) -> Void) {
+        Auth.auth().createUser(withEmail: email, password: password) { (res, err) in
+            if let err = err {
+                completion(.failure(err))
+            }
+            
+            if let res = res {
+                completion(.success(res.user))
+            }
+        }
     }
     
-    static func login() {
-        
+    static func login(with email: String, password: String, completion: @escaping(Response<User>) -> Void) {
+        Auth.auth().signIn(withEmail: email, password: password) { (res, err) in
+            if let err = err {
+                completion(.failure(err))
+            }
+            
+            if let res = res {
+                completion(.success(res.user))
+            }
+        }
     }
     
     static func forgotPassoword() {
@@ -25,5 +42,9 @@ final class AuthManager {
     
     static func logout() {
         
+    }
+    
+    static func isLogged() -> Bool {
+        return Auth.auth().currentUser != nil ? true : false
     }
 }
